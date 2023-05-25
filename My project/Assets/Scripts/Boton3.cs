@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class Boton3 : MonoBehaviour
 {
@@ -8,6 +9,6 @@ public class Boton3 : MonoBehaviour
 
     public void IncrementarNivel(int valor)
     {
-        IncrementarNivel(masTres);
+        Controlador.ConseguirInstancia().IncrementarNivel(masTres);
     }
 }

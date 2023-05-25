@@ -8,6 +8,6 @@ public class Boton2 : MonoBehaviour
 
     public void IncrementarNivel(int valor)
     {
-        IncrementarNivel(masDos);
+        Controlador.ConseguirInstancia().IncrementarNivel(masDos);
     }
 }
